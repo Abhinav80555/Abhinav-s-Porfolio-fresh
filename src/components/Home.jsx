@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-full">
-            I have completed my MERN stack development course and having hands-on experience in web appilication from creating some projects and attend hackathons
+            I have completed my MERN stack development course and having hands-on experience in web appilication from creating full stack projects and attend hackathons
             <br/>
             Currently, I looking for a job from which i get trained technologies like React Js, Material ui, Node JS and MongoDB.
           </p>
