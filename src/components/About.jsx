@@ -13,25 +13,13 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl pb-3 mt-15">
+Basically, I being a Mechanical engineering graduate, with a mere knowledge in HTML, I started developing my interest in Web developing field and acquired knowledge in few front end technologies, frameworks and libraries like HTML, CSS, JavaScript, Bootstrap, ReactJS and built up few responsive web pages and apps from the ground up.
         </p>
+        <p className="text-xl pb-3 mt-2">Also to become a full stack developer with my own interest and passion developed a skill set in backend technologies like NodeJS, ExpressJS and database of MongoDB.
 
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+<br/>I possess knowledge in System Design & Architecture, git, AWS. And I have completed a wide range of projects using my skill set.</p>
+     
       </div>
     </div>
   );
