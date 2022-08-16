@@ -61,7 +61,7 @@ const Portfolio = () => {
             <span  className="group text-white w-fit px-4  my-1 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
             </div>
             <div className="flex flex-row justify-center">
-            <span  className="group text-white w-fit px-4  my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">admin-user: test@gmail.com</span>
+            <span  className="group text-white w-fit px-4  my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">admin-user:admin@gmail.com</span>
             <span  className="group text-white w-fit px-4  my-2 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
             </div>
 
