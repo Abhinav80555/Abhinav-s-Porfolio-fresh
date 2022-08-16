@@ -57,12 +57,12 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
           <h4 className="flex justify-center">Common credentials :</h4>
           <div className="flex flex-row justify-center">
-            <span  className="group text-white w-fit px-4  my-1 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">username: test@gmail.com</span>
-            <span  className="group text-white w-fit px-4  my-1 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
+            <span  className="group text-white w-fit px-4 py-1 my-1 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">username : test@gmail.com</span>
+            <span  className="group text-white w-fit px-4 py-1 my-1 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password : 123456</span>
             </div>
             <div className="flex flex-row justify-center">
-            <span  className="group text-white w-fit px-4  my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">admin-user:admin@gmail.com</span>
-            <span  className="group text-white w-fit px-4  my-2 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
+            <span  className="group text-white w-fit px-4 py-1 my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">admin  :   admin@gmail.com</span>
+            <span  className="group text-white w-fit px-4 py-1 my-2 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password  : 123456</span>
             </div>
 
         </div>
