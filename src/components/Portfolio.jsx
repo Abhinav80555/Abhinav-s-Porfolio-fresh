@@ -57,10 +57,17 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
           <h4 className="flex justify-center">Common credentials :</h4>
           <div className="flex flex-row justify-center">
-            <span  className="group text-white w-fit px-4 py-2 my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">username:   test</span>
-            <span  className="group text-white w-fit px-4 py-2 my-2 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password:   123456</span></div>
-          
+            <span  className="group text-white w-fit px-4  my-1 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">username: test@gmail.com</span>
+            <span  className="group text-white w-fit px-4  my-1 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
+            </div>
+            <div className="flex flex-row justify-center">
+            <span  className="group text-white w-fit px-4  my-2 mr-3 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500 ">admin-user: test@gmail.com</span>
+            <span  className="group text-white w-fit px-4  my-2 flex  items-center rounded-md bg-gradient-to-r from-slate-500 to-grey-500">password: 123456</span>
+            </div>
+
         </div>
+        
+        
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src ,name,link,client,server}) => (
