@@ -1,7 +1,8 @@
 import React from "react";
 import rental from "../assets/portfolio/rental.jpg";
 import dress from "../assets/portfolio/dress.jpg";
-import login from "../assets/portfolio/login.jpg";
+import chat from "../assets/portfolio/chat.jpg";
+import blog from "../assets/portfolio/blog.jpg";
 import { MdLaunch } from "react-icons/md";
 
 
@@ -17,6 +18,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: chat,
+      name:"Chat app",
+      link:"https://umoja-mu.vercel.app/",
+      client:"https://github.com/Abhinav80555/chat-frontend",
+      server:"https://github.com/Abhinav80555/chat-backend"
+
+    },
+    {
+      id: 3,
       src: dress,
       name:"Women Closet",
       link:"https://zippy-kitten-4cb4a0.netlify.app/",
@@ -24,25 +34,25 @@ const Portfolio = () => {
       server:"https://github.com/Abhinav80555/dress-suggestion-backend"
     },
     {
-      id: 3,
-      src: login,
-      name:"Authentiction by mail",
-      link:"https://fanciful-brioche-6c2005.netlify.app/",
-      client:"https://github.com/Abhinav80555/password-reset-frontend",
-      server:"https://github.com/Abhinav80555/password-reset-backend"
+      id: 4,
+      src: blog,
+      name:"Blog app",
+      link:"https://ablogapp.netlify.app/",
+      client:"https://github.com/Abhinav80555/blog-frontend",
+      server:"https://github.com/Abhinav80555/blog-backend"
 
     }
   ];
 
   return (
     <div
-      name="portfolio"
-      className="h-150 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20"
+      name="projects"
+      className="h-250 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-250 pt-20"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>

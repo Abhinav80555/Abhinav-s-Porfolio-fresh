@@ -1,6 +1,7 @@
 import React from "react";
 // import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight,MdFileDownload } from "react-icons/md";
+import { MdLaunch } from "react-icons/md";
+import { MdOutlineKeyboardArrowRight} from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -22,26 +23,25 @@ const Home = () => {
 
           <div className="flex flex-row">
             <Link
-              to="portfolio"
+              to="projects"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Portfolio
+              Projects
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
             <a
               className="group text-white w-fit px-6 py-3 my-2 ml-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-              href="/resume.pdf"
-              download = {true}
+              href="https://drive.google.com/file/d/1GDpsYH_O6QzpjkLhPiy6_b1GHEKJ0fEy/view"
               target="_blank"
               rel="noreferrer"
             >
               Resume
               <span className="group-hover:rotate-0 duration-300">
-                <MdFileDownload size={25} className="ml-1"/>
+                <MdLaunch size={25} className="ml-1"/>
               </span>
             </a>
           </div>
