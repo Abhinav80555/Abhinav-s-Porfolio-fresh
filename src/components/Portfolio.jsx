@@ -36,10 +36,10 @@ const Portfolio = () => {
     {
       id: 4,
       src: blog,
-      name:"Blog app",
-      link:"https://ablogapp.netlify.app/",
-      client:"https://github.com/Abhinav80555/blog-frontend",
-      server:"https://github.com/Abhinav80555/blog-backend"
+      name:"Freelance app",
+      link:"https://frelanc.netlify.app/",
+      client:"https://github.com/Abhinav80555/freelancing-frontend",
+      server:"https://github.com/Abhinav80555/freelancing-backend"
 
     }
   ];
