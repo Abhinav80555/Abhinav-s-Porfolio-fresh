@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/abhinav80555",
+      href: "https://www.linkedin.com/in/abhinavsekar",
       style: "rounded-tr-md",
     },
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/18WhPe16uDDByFUWSbGGxFGQrcQYchLue/view?usp=sharing",
+      href: "https://drive.google.com/file/d/18wgz5UX1TqdvrViDsN1i90Otjfnm2dSz/view?usp=sharing",
       style: "rounded-br-md",
     },
   ];
